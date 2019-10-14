@@ -1,0 +1,221 @@
+* {
+  box-sizing: border-box;
+  background-size: cover;
+}
+
+img {
+  max-width: 70%;
+  vertical-align: bottom;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 1;
+}
+
+.body {
+  display: grid;
+  min-height: 70vh;
+  padding: 0px;
+  margin: 0px;
+}
+
+.body--layout-2 {
+  grid-template-rows: 1fr auto;
+  grid-template-columns: auto 1fr;
+  grid-template-areas:
+    "header main"
+    "header footer";
+}
+
+.header {
+  background: #00ff00;
+  grid-area: header;
+  display: flex;
+}
+
+.main {
+  background-image: linear-gradient(red, lime, green, red);
+  grid-area: main;
+}
+
+.footer {
+  background: lime;
+  grid-area: footer;
+  color: red;
+  padding: 2px;
+  margin: 2px;
+  border: 1px solid blue;
+  background-color: rgba(0, 0, 000, 0.3);
+  text-align: center;
+}
+
+ul {
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0;
+}
+
+.intro {
+  text-align: center;
+  padding: 30px;
+  background-image: url("https://images.unsplash.com/photo-1539017058502-e1879b961419?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  color: #1ac8ed;
+  height: 100%;
+  background-position: center bottom;
+  background-size: cover;
+}
+
+.geschichte {
+  padding-top: 125px;
+  text-align: center;
+  background: linear-gradient(to bottom, red, lime, red);
+  background-image: url("https://images.unsplash.com/photo-1559555310-78c7c6121fc0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.geschichte-img {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
+  mix-blend-mode: color-burn;
+}
+
+.about {
+  font-family: "Lucida Sans Typewriter";
+  text-align: center;
+}
+
+.bild-2 {
+  width: 100%;
+}
+
+.header--nav {
+  text-decoration: none;
+  text-align: center;
+  grid-area: nav;
+  margin: 0;
+  padding: 20px;
+}
+
+.ubr {
+  text-align: right;
+}
+
+.header--nav a {
+  text-decoration: none;
+}
+
+.gs {
+  margin: 10px;
+  padding: 10px;
+  text-align: bottom;
+  background: linear-gradient(to bottom, red, lime, red);
+}
+
+.titel {
+  text-align: center;
+}
+
+.gruppe {
+  background-image: url("https://cdn.pixabay.com/photo/2015/06/09/13/44/world-jamboree-803544_960_720.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: Arial, "Times New Roman", serif;
+  padding: 60px;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 000, 0.7);
+}
+
+.overlay-2 {
+  padding: 20px;
+}
+
+.morse-bild {
+  text-align: center;
+  padding: 30px;
+    margin: 30px;
+  }
+
+.ol {
+  text-align: left;
+}
+
+.dv {
+  text-align: center;
+}
+
+.whatever {
+  background-image: url("https://images.unsplash.com/photo-1448375240586-882707db888b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  padding: 200px;
+  background-size: cover;
+  text-shadow: 2px 2px #ff0000;
+}
+
+.knoten {
+  color: lime;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+.knoten_background {
+  background-image: url("https://images.unsplash.com/photo-1548882176-afcfd80e83cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  padding: 200px;
+  background-repeat: no-repeat;
+}
+
+.uniform {
+  background-image: url("https://images.unsplash.com/photo-1465311440653-ba9b1d9b0f5b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 350px;
+}
+
+.patrulle {
+  background-image: url("https://images.unsplash.com/photo-1464964165638-96827ce7e617");
+  mix-blend-mode: luminosity;
+  background-repeat: no-repeat;
+  color: white;
+  background-size: cover;
+  padding: 100px;
+  background-position: center bottom;
+  height: 100%;
+  text-align: center;
+  padding-top: 100px;
+  
+}
+
+.spezialabzeichen_ {
+  padding: 20px;
+}
+
+.morse {
+  padding: 50px;
+  margin: 50px;
+}
+
+.over {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  margin: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.hihi {
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
