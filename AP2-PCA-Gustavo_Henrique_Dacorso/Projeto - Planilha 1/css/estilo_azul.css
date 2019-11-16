@@ -1,0 +1,42 @@
+#largura{
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.título{
+	background-color: #0D5188;
+	color: white;
+	font-family: Arial;
+	font-size: 12px;
+	padding: 4px;
+}
+
+.azul_médio{
+	background-color: #66C5E3;
+	font-family: Arial;
+	font-size: 12px;
+	padding: 4px;
+}
+
+.azul_claro{
+	background-color: #C7E7F3;
+	font-family: Arial;
+	font-size: 12px;
+	padding: 4px;
+}
+
+.azul_escuro{
+	color: #0D5188;
+	font-family: Arial;
+	font-size: 12px;
+	padding: 4px;
+}
+
+.cinza{
+	background-color: #C0C0C0;
+	font-family: Arial;
+	position: align="center";
+	font-size: 12px;
+	padding: 4px;
+}

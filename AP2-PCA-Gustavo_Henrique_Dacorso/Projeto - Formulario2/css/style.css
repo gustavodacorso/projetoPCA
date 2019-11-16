@@ -1,0 +1,19 @@
+.container{
+			width:500px;
+			background-color:#C8C8C8;
+			border-radius:10px;
+			border-style:groove;
+			margin:50px;
+			font-family:"Tahoma";
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
+		#borda1{
+			border-style:solid;
+		}
+		
+		#borda2{
+			border-style:solid;
+		}
+	

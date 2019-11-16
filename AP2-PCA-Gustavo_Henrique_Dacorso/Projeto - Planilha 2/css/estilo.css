@@ -1,0 +1,29 @@
+.cor{
+	background-color: green;
+	color: white;
+}
+
+.dinheiro{
+	color: #000000;
+	background-color: white;
+}
+
+.dinheiro2{
+	color: #000000;
+	background-color: silver;
+}
+
+#fundo{
+	background-color: white;
+}
+
+#borda{
+	border-color: #87CEFA;
+}
+
+#titulo{
+	color: black;
+	font-family: Arial Narrow;
+	font-size: 22px;
+
+}

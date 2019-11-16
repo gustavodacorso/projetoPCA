@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+	<meta charset="utf-8">
+	<title>Formulário HTML</title>
+	
+	<link rel="stylesheet" href="css/style.css">
+	
+</head>
+
+<body>
+
+	<div class="container">
+
+	<table><caption><h3>Formulário de Cadastro</h3></caption>
+
+		<form>
+	
+		<tbody>
+	
+		<tr>
+	
+			<td><fieldset><legend>Informações do Usuário</legend>
+				<p>Usuário:<input type="text" name="usuario" size="20" maxlength="35"></p>
+				<p>Senha:<input type="text" name="senha" size="20" maxlength="25"></p>
+				<p><input type="checkbox" name="UserAtivo" value="UsuárioAtivo">Usuário Ativo</p>
+			</fieldset></td>
+			
+		</tr>
+		
+		<tr>
+		
+			<td><fieldset><legend>Informações do Usuário</legend>
+				<p>Nome:<input type="text" name="nome" size="20" maxlength="25"></p>
+				<p>Sexo:<input type="radio" name="sexo" id="masculino"><label for="masculino">Masculino</label>
+						<input type="radio" name="sexo" id="feminino"><label for="feminino">Feminino</label>
+				</p>
+				<p>Estado Sudeste:<select>
+				<option value="espirito-santo">Espirito Santo</option>
+				<option value="minas-gerais">Minas Gerais</option>
+				<option value="rio-de-janeiro" selected>Rio de Janeiro</option>
+				<option value="são-paulo">São Paulo</option>
+				</select></p>
+				<p>Cupom Desconto:<input type="text" name="cupom" size="20" maxlength="30"></p>
+				<p>Observações:<br>
+				<textarea name="CampoObservações" cols="70" rows="6"></textarea>
+				</p>
+			</fieldset></td>
+		
+			<tr>
+
+				<td><input type="submit" name="BotãoEnviar" value="Enviar"></td>
+		
+			</tr>
+		
+		</tr>
+	
+		</tbody>
+	
+		</form>
+
+	</table>
+	
+	</div>
+
+</body>
+
+</html>
