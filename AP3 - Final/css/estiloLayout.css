@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+
+.container{
+	width: 200px;	
+	height: 820px;
+	background-color: #CCC;
+	margin: 0 auto;	
+}
+.logotipo{
+	width: 300px;
+	height:130px;	
+	color: #CCC;
+	float: left;
+	margin-top: 0px;
+	margin-left: auto;
+}
+.logo-unigranrio{
+	width:100px;
+	height: 50px;
+	margin-top: 0px;
+}
+.navtopo{
+	width: 975px;
+	height: 100px;
+	background-color: #FF0;
+	font-size: 20px;
+	word-spacing: 40px;
+	margin: 0px 0px 40px 150px;
+	padding: 35px 0px 0px 0px;	
+	text-align: center;
+}
+.carousel{
+	height: 200px;	
+	width: 400px;
+	margin: 0 auto;
+	font-size: 50px;
+}
+.rodape{
+	height: 100px;
+	background-color: #66F;
+	color: #FFF;
+	text-align: center;
+
+}
+.img{
+	height: 500px;
+}
+.box{
+	width: 200px;
+	height: 200px;
+	border: solid #FFF 1px;
+}
+.box01{
+	background-color: #000;
+	float: right;
+}
+.box02{
+	background-color: #009;	  
+	margin-left: 250px; 
+}
+.box03{
+	background-color: #306;
+	float: left;
+}
+.fundo{
+	font-style: italic;
+	font-size: 30px;
+	height: 900px;
+	background-color: cyan;
+	color: black;
+	text-align: center;
+
+}
+
+.formulario{
+	font-style: italic;
+	font-size: 30px;
+	height: 50px;
+	background-color: cyan;
+	color: black;
+	text-align: left;
+}
+.input_div{
+	font-style: italic;
+	font-size: 20px;
+	height: 50px;
+	background-color: cyan;
+	color: black;
+	text-align: left;
+}

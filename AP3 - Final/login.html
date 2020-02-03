@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+
+<html >
+<head>
+	<meta charset="utf-8">
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="css/estiloLayout.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <section class="container">
+        <header>
+            <figure class="logotipo">
+                <img class="logotipo" src="img/notebook-google-logo.jpg" alt="banner">
+            </figure>
+            <nav class="navtopo">
+                <a href="index.html">Home</a>
+                <a href="historia.html">História</a>
+                <a href="foto.html">Fotos</a>
+                <a href="contato.html">Contato</a>
+                <a href="cadastro.html">Cadastro</a>
+                <a href="login.html">Login</a>
+            </nav>
+    
+
+</head>
+<body>
+				</div>
+				<form action="/j_spring_security_check_oauth" method="POST" id="loginForm" class="login-box box" autocomplete="off">
+					<input type="hidden" name="targetUri" value="/lojas" id="targetUri" />
+					<span class="security-label"><i class="fa fa-lock"></i> Site Seguro </span>
+					<div class="alert alert-danger error-feedback hidden " role="alert">
+						<p></p>
+					</div>
+					<div id="userpass_group">
+						<div class="form-group ">
+							<label for='username'>Email:  </label>
+							<input type='text' class="form-control form-control-lg input-lg " name='j_username' id='username' value=""/>
+						</div>
+						<div class="form-group ">
+							<label for='password'>Senha:  </label>
+							<input type='password' class="form-control form-control-lg input-lg " name='j_password' id='password'/>
+							<span class="icon-password" toggle="#password" id="toggle-password"><i class="icon-olho"></i></span>
+						</div>
+					</div>
+					<div id="mfa_group" class="hidden">
+						<div class="form-group ">
+							<label for='mfa'>Login em 2 passos: </label>
+							<input type='number' class="form-control form-control-lg input-lg " name='j_mfa' id='mfa'/>
+						</div>
+					</div>
+					<p>
+						<input type='submit' id="submit" class="btn btn--tertiary whitelabel-3 w-100 p-sm" value='Login'/>
+					</p>
+				</form>
+				<div class="createAccount out-of-box mt-md">
+					
+						<br>
+						<br>Esqueci minha senha<br>
+											   <br>
+					
+					
+						
+							<a href="cadastro.html"><br>Quero me cadastrar<br></a>
+						
+					
+				</div>
+				
+			</div>
+		</div>
+	</main>
+	
+</body>
+</html>
